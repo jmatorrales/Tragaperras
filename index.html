@@ -1,23 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tragachris</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1 class="title">Tragachris</h1>
+      <h1 class="title">Tragachris</h1>
+      <div class="instructions">
+        <p style="color:antiquewhite">
+          ¡Bienvenido a Tragachris! Presiona el botón "Girar" para probar tu
+          suerte y ver si puedes conseguir una combinación ganadora.
+        </p>
         <h3 id="prize"></h3>
-        <div class="slot-machine">
-            <div class="reel" id="item1"><div class="strip"></div></div>
-            <div class="reel" id="item2"><div class="strip"></div></div>
-            <div class="reel" id="item3"><div class="strip"></div></div>
-        </div>
-        <button id="spin-button">Girar</button>
+        <h4 id="coins"></h4>
+      </div>
+      <div class="slot-machine">
+        <div class="reel" id="item1"><div class="strip"></div></div>
+        <div class="reel" id="item2"><div class="strip"></div></div>
+        <div class="reel" id="item3"><div class="strip"></div></div>
+      </div>
+      <button id="spin-button">Girar</button>
     </div>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
